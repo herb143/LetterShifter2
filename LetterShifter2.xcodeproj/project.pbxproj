@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A2E3E913F6C61600C8458D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A2E3E813F6C61600C8458D /* main.cpp */; };
+		E1A2E3EB13F6C61600C8458D /* LetterShifter2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1A2E3EA13F6C61600C8458D /* LetterShifter2.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1A2E3E213F6C61600C8458D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E1A2E3EB13F6C61600C8458D /* LetterShifter2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E1A2E3E413F6C61600C8458D /* LetterShifter2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LetterShifter2; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A2E3E813F6C61600C8458D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E1A2E3EA13F6C61600C8458D /* LetterShifter2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LetterShifter2.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A2E3E113F6C61600C8458D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1A2E3D913F6C61600C8458D = {
+			isa = PBXGroup;
+			children = (
+				E1A2E3E713F6C61600C8458D /* LetterShifter2 */,
+				E1A2E3E513F6C61600C8458D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A2E3E513F6C61600C8458D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2E3E413F6C61600C8458D /* LetterShifter2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A2E3E713F6C61600C8458D /* LetterShifter2 */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2E3E813F6C61600C8458D /* main.cpp */,
+				E1A2E3EA13F6C61600C8458D /* LetterShifter2.1 */,
+			);
+			path = LetterShifter2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A2E3E313F6C61600C8458D /* LetterShifter2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A2E3EE13F6C61600C8458D /* Build configuration list for PBXNativeTarget "LetterShifter2" */;
+			buildPhases = (
+				E1A2E3E013F6C61600C8458D /* Sources */,
+				E1A2E3E113F6C61600C8458D /* Frameworks */,
+				E1A2E3E213F6C61600C8458D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetterShifter2;
+			productName = LetterShifter2;
+			productReference = E1A2E3E413F6C61600C8458D /* LetterShifter2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A2E3DB13F6C61600C8458D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E1A2E3DE13F6C61600C8458D /* Build configuration list for PBXProject "LetterShifter2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1A2E3D913F6C61600C8458D;
+			productRefGroup = E1A2E3E513F6C61600C8458D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A2E3E313F6C61600C8458D /* LetterShifter2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A2E3E013F6C61600C8458D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A2E3E913F6C61600C8458D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1A2E3EC13F6C61600C8458D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1A2E3ED13F6C61600C8458D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1A2E3EF13F6C61600C8458D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1A2E3F013F6C61600C8458D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A2E3DE13F6C61600C8458D /* Build configuration list for PBXProject "LetterShifter2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2E3EC13F6C61600C8458D /* Debug */,
+				E1A2E3ED13F6C61600C8458D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A2E3EE13F6C61600C8458D /* Build configuration list for PBXNativeTarget "LetterShifter2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2E3EF13F6C61600C8458D /* Debug */,
+				E1A2E3F013F6C61600C8458D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A2E3DB13F6C61600C8458D /* Project object */;
+}
