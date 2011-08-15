@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E158EBE113F98B3F00FB4ED1 /* advanceLetter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E158EBE013F98B3F00FB4ED1 /* advanceLetter.cpp */; };
+		E158EBE513F98BD600FB4ED1 /* retractLetter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E158EBE413F98BD600FB4ED1 /* retractLetter.cpp */; };
 		E1A2E3E913F6C61600C8458D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A2E3E813F6C61600C8458D /* main.cpp */; };
 		E1A2E3EB13F6C61600C8458D /* LetterShifter2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1A2E3EA13F6C61600C8458D /* LetterShifter2.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E158EBE013F98B3F00FB4ED1 /* advanceLetter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = advanceLetter.cpp; sourceTree = "<group>"; };
+		E158EBE313F98B8900FB4ED1 /* advanceLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advanceLetter.h; sourceTree = "<group>"; };
+		E158EBE413F98BD600FB4ED1 /* retractLetter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = retractLetter.cpp; sourceTree = "<group>"; };
+		E158EBE613F98BFF00FB4ED1 /* retractLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retractLetter.h; sourceTree = "<group>"; };
 		E1A2E3E413F6C61600C8458D /* LetterShifter2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LetterShifter2; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A2E3E813F6C61600C8458D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E1A2E3EA13F6C61600C8458D /* LetterShifter2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LetterShifter2.1; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 			children = (
 				E1A2E3E813F6C61600C8458D /* main.cpp */,
 				E1A2E3EA13F6C61600C8458D /* LetterShifter2.1 */,
+				E158EBE013F98B3F00FB4ED1 /* advanceLetter.cpp */,
+				E158EBE313F98B8900FB4ED1 /* advanceLetter.h */,
+				E158EBE413F98BD600FB4ED1 /* retractLetter.cpp */,
+				E158EBE613F98BFF00FB4ED1 /* retractLetter.h */,
 			);
 			path = LetterShifter2;
 			sourceTree = "<group>";
@@ -114,6 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A2E3E913F6C61600C8458D /* main.cpp in Sources */,
+				E158EBE113F98B3F00FB4ED1 /* advanceLetter.cpp in Sources */,
+				E158EBE513F98BD600FB4ED1 /* retractLetter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +210,7 @@
 				E1A2E3F013F6C61600C8458D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
