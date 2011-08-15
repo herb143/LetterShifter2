@@ -38,7 +38,7 @@ int main (int argc, const char * argv[])
         sNewText = sOriginalText;
     }
     
-    cout << "New Text Text: " << sNewText << endl;
+    cout << "New Text: " << sNewText << endl;
     
     return 0;
 }
