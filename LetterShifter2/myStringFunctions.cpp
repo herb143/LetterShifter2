@@ -7,8 +7,29 @@
 //
 
 #include <iostream>
+#include <string>
 #include "myStringFunctions.h"
+#include "advanceLetter.h"
+#include "retractLetter.h"
 
+
+std::string shiftText(int nSpacesToShift, std::string sTextToShift)
+{
+    
+    if (nSpacesToShift < 0)
+    {
+        return retractLetter(sTextToShift, nSpacesToShift * -1);
+    }
+    else if (nSpacesToShift > 0)
+    {
+        return advanceLetter(sTextToShift, nSpacesToShift);
+    }
+    else
+    {
+        return sTextToShift;
+    }
+    
+}
 
 int stringToNumber(const char * sInputString)
 {

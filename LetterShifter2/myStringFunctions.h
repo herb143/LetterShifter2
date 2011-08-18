@@ -9,6 +9,7 @@
 #ifndef LetterShifter2_myStringFunctions_h
 #define LetterShifter2_myStringFunctions_h
 
+std::string shiftText(int nSpacesToShift, std::string sTextToShift);
 int stringToNumber(const char * sInputString);
 
 #endif

@@ -10,5 +10,7 @@
 #define LetterShifter2_myFileFunctions_h
 
 std::string readAllText(std::string sFileName);
+void writeToFile(std::string sFileName, std::string sTextToWrite);
+bool fileIsWriteable(std::string sFileName);
 
 #endif

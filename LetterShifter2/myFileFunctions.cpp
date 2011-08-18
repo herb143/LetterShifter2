@@ -44,3 +44,35 @@ std::string readAllText(std::string sFileName)
 
     return sReturnText;
 }
+
+void writeToFile(std::string sFileName, std::string sTextToWrite)
+{
+    using namespace std;
+    
+    ofstream outf(sFileName.c_str());
+    
+    if (!outf)
+    {
+        cerr << "File " << sFileName << " could not be opened for writing." << endl;
+        exit(1);
+    }
+    
+    outf << sTextToWrite << endl;
+    
+}
+
+bool fileIsWriteable(std::string sFileName)
+{
+    using namespace std;
+    
+    ofstream outf(sFileName.c_str());
+    
+    if (!outf)
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
