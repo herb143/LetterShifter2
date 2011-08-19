@@ -20,6 +20,33 @@ int main (int argc, const char * argv[])
 {
     using namespace std;
     
+    // Begin version function.
+    for (int iii = 1; iii < argc; iii++)
+    {
+        if (!(strcmp(argv[iii], "-v")))
+        {
+            cout << endl;
+            cout << "LetterShifter2 v1.0" << endl;
+            cout << "Copyright 2011 Herbert F. Gilman. This software is licensed under the" << endl;
+            cout << "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." << endl;
+            cout << "See the README for more information." << endl;
+            cout << endl;
+            return 0;
+            
+        }
+        else if (!(strcmp(argv[iii], "--version")))
+        {
+            cout << endl;
+            cout << "LetterShifter2 v1.0" << endl;
+            cout << "Copyright 2011 Herbert F. Gilman. This software is licensed under the" << endl;
+            cout << "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." << endl;
+            cout << "See the README for more information." << endl;
+            cout << endl;
+            return 0;
+        }
+    }
+    
+    
     string sOriginalText = ""; // Define the variables.
     int nSpaces = 0;
     string fileToWrite = "";
