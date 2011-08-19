@@ -7,7 +7,6 @@
 //
 
 #include <iostream>
-#include <string>
 #include "myStringFunctions.h"
 #include "advanceLetter.h"
 #include "retractLetter.h"

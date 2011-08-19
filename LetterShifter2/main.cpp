@@ -8,7 +8,6 @@
 
 #include <iostream>
 #include <fstream>
-#include <string>
 #include "myFileFunctions.h" // The file functions.
 #include "myStringFunctions.h" // The string functions.
 #include "advanceLetter.h" // The advance function.

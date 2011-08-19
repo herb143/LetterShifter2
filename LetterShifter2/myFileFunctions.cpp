@@ -8,7 +8,6 @@
 
 #include <iostream>
 #include <fstream>
-#include <string>
 #include "myFileFunctions.h"
 
 std::string readAllText(std::string sFileName)
