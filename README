@@ -7,8 +7,9 @@ Usage:
      LetterShifter2 [shift value] [input file]
      LetterShifter2 [shift value] [input file] [output file]
      LetterShifter2 -v
+     LetterShifter2 --version
 
-The -v argument will output version information.
+The -v or --version argument will output version information.
 Any arguments not provided will be passed through standard input.
 The shift value may be any integer from 1 to 25, or from -1 to -25.
 
