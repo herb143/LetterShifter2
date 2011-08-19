@@ -1,0 +1,19 @@
+LetterShifter2 -- A commandline caesar cipher program written in C++.
+It will shift every character in a text forward or backwards in the alphabet, ignoring symbols.
+
+Usage:
+     LetterShifter2
+     LetterShifter2 [shift value]
+     LetterShifter2 [shift value] [input file]
+     LetterShifter2 [shift value] [input file] [output file]
+     LetterShifter2 -v
+
+The -v argument will output version information.
+Any arguments not provided will be passed through standard input.
+The shift value may be any integer from 1 to 25, or from -1 to -25.
+
+
+Copyright 2011 Herbert F. Gilman. This work is licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to:
+Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
