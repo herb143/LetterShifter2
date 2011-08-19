@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E131232313FEEE94008C93AA /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		E158EBE013F98B3F00FB4ED1 /* advanceLetter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = advanceLetter.cpp; sourceTree = "<group>"; };
 		E158EBE313F98B8900FB4ED1 /* advanceLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advanceLetter.h; sourceTree = "<group>"; };
 		E158EBE413F98BD600FB4ED1 /* retractLetter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = retractLetter.cpp; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		E1A2E3D913F6C61600C8458D = {
 			isa = PBXGroup;
 			children = (
+				E131232313FEEE94008C93AA /* README */,
 				E1A2E3E713F6C61600C8458D /* LetterShifter2 */,
 				E1A2E3E513F6C61600C8458D /* Products */,
 			);
